@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ClickTime coding challenge</title>
+		<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  	<script src="jQuery.min.js"></script>
+
+	  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	  	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	  	<link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>
+ 		<script type="text/javascript" src="DataTables/datatables.min.js"></script>
+
+	  	<link rel="stylesheet" href="ClickTime.css" type="text/css">
+	  	<script src="ClickTime.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		  <div class="page-header center">
+		    <h1>The Race Around the World</h1>      
+		  </div>    
+		</div>
+
+		<div class="container center">
+			<button type="button" class="btn btn-success btn-circle btn-xl make-large" id="start-button">START</i></button>
+			<button type="button" class="btn btn-danger btn-circle btn-xl make-large" id="stop-button">STOP</i></button>
+			<button type="button" class="btn btn-warning btn-circle btn-xl make-large" id="reset-button">RESET</i></button>
+		</div>
+
+		<div class="container">
+		    <h2>Stopwatch</h2>
+		    <p>You can start and stop the stopwatch to have the time logged in the history table. Click on reset to reset the history table.</p>
+			<table class="display" id="stopWatchTable" width="100%"></table>
+		</div>
+
+	</body>
+</html>

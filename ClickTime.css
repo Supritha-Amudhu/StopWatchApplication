@@ -1,0 +1,10 @@
+.center{
+	text-align: center;
+}
+
+.make-large{
+	width: 110px;
+  	height: 115px;
+  	border-radius: 80px;
+  	margin: 25px;
+}
